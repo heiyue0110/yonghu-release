@@ -1,0 +1,10 @@
+{
+    "version":  "1.2.6",
+    "pub_date":  "2026-06-30T19:09:29+08:00",
+    "installer":  "永狐_1.2.6_x64_安装程序.exe",
+    "download_url":  "永狐_1.2.6_x64_安装程序.exe",
+    "announcement_url":  "更新公告_1.2.6.md",
+    "sha256":  "EA0C23F3B486C6F21A450A12CAA85AF6F54398F738FDA10195570C6F5808D786",
+    "min_supported_version":  "1.0.0",
+    "notes":  "永狐 1.2.6 已发布，请查看更新公告了解本次改动。"
+}

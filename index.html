@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>永狐 v1.2.6 发布页</title>
+  <style>
+    :root { color-scheme: dark; --bg:#05080b; --panel:#0b1118; --line:#24384a; --text:#e6f4ff; --muted:#9fb3c6; --accent:#00a3ff; --warn:#ffd21f; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; font-family:"Microsoft YaHei","Segoe UI",sans-serif; color:var(--text); background:linear-gradient(90deg,rgba(0,163,255,.08) 1px,transparent 1px) 0 0/44px 44px,linear-gradient(0deg,rgba(0,163,255,.06) 1px,transparent 1px) 0 0/44px 44px,radial-gradient(circle at 78% 14%,rgba(0,163,255,.18),transparent 32%),var(--bg); }
+    main { width:min(1080px,calc(100% - 36px)); margin:0 auto; padding:52px 0; }
+    .hero,.card { border:1px solid var(--line); background:linear-gradient(135deg,rgba(0,163,255,.08),transparent 44%),rgba(8,13,18,.94); box-shadow:0 24px 70px rgba(0,0,0,.34); }
+    .hero { position:relative; overflow:hidden; padding:34px; border-radius:10px; }
+    .hero:before { content:""; position:absolute; left:0; right:0; top:0; height:3px; background:linear-gradient(90deg,var(--accent),transparent 72%); }
+    .eyebrow { margin:0 0 12px; color:var(--accent); font-size:12px; font-weight:900; text-transform:uppercase; }
+    h1 { margin:0; font-size:clamp(30px,5vw,58px); line-height:1.05; }
+    .summary { max-width:760px; color:var(--muted); font-size:16px; line-height:1.8; margin:18px 0 0; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:26px; }
+    a.button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:0 18px; border:1px solid var(--accent); border-radius:8px; background:var(--accent); color:#00131f; font-weight:900; text-decoration:none; }
+    a.button.secondary { background:transparent; color:var(--text); border-color:var(--line); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:16px; }
+    .card { border-radius:8px; padding:18px; }
+    .card h2 { margin:0 0 10px; font-size:18px; }
+    ul { margin:0; padding-left:18px; color:var(--muted); line-height:1.8; }
+    code { display:block; padding:12px; margin-top:10px; overflow-wrap:anywhere; border:1px solid var(--line); border-radius:8px; color:var(--warn); background:#05080b; font-family:Consolas,"Courier New",monospace; font-size:12px; }
+    .notice { margin-top:16px; border-left:4px solid var(--warn); background:rgba(255,210,31,.08); }
+    footer { margin-top:20px; color:var(--muted); font-size:12px; }
+    @media (max-width:760px) { main { width:min(100% - 24px,1080px); padding:24px 0; } .hero { padding:24px; } .grid { grid-template-columns:1fr; } .actions a { width:100%; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Everfox Release Center</p>
+      <h1>永狐 v1.2.6</h1>
+      <p class="summary">永狐是免费 EVE Online 辅助情报工具，用于聊天频道预警、KM 产生预警、ZKB/KM 查询、生产位置附近风险扫描、星图路线和角色情报分析。它只读信息、做提醒和风险参考，不控制游戏客户端，不自动跃迁、锁定、开火，也不注入或修改 EVE 客户端。</p>
+      <div class="actions">
+        <a class="button" href="永狐_1.2.6_x64_安装程序.exe">下载 Windows x64 安装包</a>
+        <a class="button secondary" href="更新公告_1.2.6.md">查看更新公告</a>
+        <a class="button secondary" href="latest.json">查看更新清单</a>
+      </div>
+    </section>
+    <section class="grid">
+      <article class="card"><h2>本版亮点</h2><ul><li>预警、ZKB/KM、星图路线和角色情报集中在一个终端里。</li><li>只读信息并给出风险提醒，具体操作仍由玩家自行决定。</li><li>覆盖安装即可更新，历史配置会继续保留。</li></ul></article>
+      <article class="card"><h2>文件校验</h2><p>安装包 SHA256：</p><code>EA0C23F3B486C6F21A450A12CAA85AF6F54398F738FDA10195570C6F5808D786</code></article>
+    </section>
+    <section class="card notice"><h2>合规与风险说明</h2><ul><li>永狐不控制游戏客户端，不模拟键鼠，不注入或修改 EVE 客户端。</li><li>屏幕预警属于高风险本地辅助提醒，仅做截图颜色识别，启用前请自行确认风险。</li><li>情报判断可能不完整，飞行、交战、生产和撤离等决策仍由玩家自行确认。</li></ul></section>
+    <footer>上传发布包时保持本页、latest.json、安装包和更新公告在同一目录。软件内更新源填写本目录下 latest.json 的公网地址。</footer>
+  </main>
+</body>
+</html>
