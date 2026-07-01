@@ -2,16 +2,16 @@
   "version": "1.2.7",
   "notes": "永狐 1.2.7 已发布：完善桌面端体验与自动更新链路。",
   "body": "永狐 1.2.7 已发布：完善桌面端体验与自动更新链路。",
-  "pub_date": "2026-07-01T08:06:45Z",
+  "pub_date": "2026-07-01T08:42:45Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTit0bnBIUTEzUUJ2dWF5RFZlcHB0WUxVWnZ6WEdXUHh2YmwxVVRocGZXbWM0WTRSTE9Ya05EaU4ybk42ZTM2Q1A3MStiUVlEcEc3K3QxM01YdGRZaHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODkzMTkwCWZpbGU65rC454uQXzEuMi43X3g2NC1zZXR1cC5leGUKUm81ZWN6NXJDQWZpak83RkZpaUFXaXVvL0pwU1gvYncvVTY4VVZCWjF6S3Q5c3U4WmlIN2I2N0hPWXJOZnRtcGQ1YjBOdVYrVXRpcWg3SHcvU3hJQ2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTi9QQ1JQQ29ZVzdoL2lxYmhndFFLenUzbEZIRDg1Tk8wK0JTRWRUK1AzdlZUeWZ4K3lxZHA5K09RVlRUN2U3VURmUkNnUm9NTTJPeFRPemhLeHU3bHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODk1MzQyCWZpbGU65rC454uQXzEuMi43X3g2NC1zZXR1cC5leGUKalNrY2p1dE5KY3dHeFlmcEk2dlZPdjRlOXJrRWZUQzg1N2tSdlVOOUhPZ2NyUXhwZjZ6VzQvdnM1dHY3NU9yTk00b3d5RTBsMDBtK09vYzdIckdIQ3c9PQo=",
       "url": "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
     }
   },
   "installer": "永狐_1.2.7_x64_安装程序.exe",
   "download_url": "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
   "announcement_url": "https://heiyue0110.github.io/yonghu-release/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.2.7.md",
-  "sha256": "C1F11BB009406B0A287B246466E806F66601D45122E1E73262208446B6A90118",
+  "sha256": "CE349F9E31FFC38FE0CD0836C6FEA558FF1EBF9E9A16ADFF71DFFEBB94AE8B31",
   "min_supported_version": "1.0.0"
 }
