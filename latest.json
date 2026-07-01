@@ -1,17 +1,17 @@
 {
-  "version": "1.2.7",
-  "notes": "永狐 1.2.7 已发布：完善桌面端体验与自动更新链路。",
-  "body": "永狐 1.2.7 已发布：完善桌面端体验与自动更新链路。",
-  "pub_date": "2026-07-01T08:42:45Z",
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTi9QQ1JQQ29ZVzdoL2lxYmhndFFLenUzbEZIRDg1Tk8wK0JTRWRUK1AzdlZUeWZ4K3lxZHA5K09RVlRUN2U3VURmUkNnUm9NTTJPeFRPemhLeHU3bHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODk1MzQyCWZpbGU65rC454uQXzEuMi43X3g2NC1zZXR1cC5leGUKalNrY2p1dE5KY3dHeFlmcEk2dlZPdjRlOXJrRWZUQzg1N2tSdlVOOUhPZ2NyUXhwZjZ6VzQvdnM1dHY3NU9yTk00b3d5RTBsMDBtK09vYzdIckdIQ3c9PQo=",
-      "url": "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
-    }
-  },
-  "installer": "永狐_1.2.7_x64_安装程序.exe",
-  "download_url": "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
-  "announcement_url": "https://heiyue0110.github.io/yonghu-release/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.2.7.md",
-  "sha256": "CE349F9E31FFC38FE0CD0836C6FEA558FF1EBF9E9A16ADFF71DFFEBB94AE8B31",
-  "min_supported_version": "1.0.0"
+    "version":  "1.2.7",
+    "notes":  "永狐 1.2.7 已发布，请查看更新公告了解本次改动。",
+    "body":  "永狐 1.2.7 已发布，请查看更新公告了解本次改动。",
+    "pub_date":  "2026-07-01T10:40:54Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjhpcTRRU0tFQ3c4ZDBEcEFiT1g4UzIyYVBQUFp1MytwQ2g5UGxqc2JoZVhGVTA4Rkh0VG0vWkhHSitycjJmYm53bG1rcGN2YnEwdHVsMk5qQVcxMHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyOTAyNDQ2CWZpbGU65rC454uQXzEuMi43X3g2NC1zZXR1cC5leGUKUU1yTlZOKzBrdzhnUmVvMVI2ZVJ5Q2JzSGM2WDJrQnF6ak9EY3l2NWczSTdSalorcVd1eVhDSVV4RnJPQjVxZ1JXUDJNOVgzVnRmRWdXL0JmZi9JQkE9PQo=",
+                                             "url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
+                                         }
+                  },
+    "installer":  "永狐_1.2.7_x64_安装程序.exe",
+    "download_url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.2.7_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
+    "announcement_url":  "https://heiyue0110.github.io/yonghu-release/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.2.7.md",
+    "sha256":  "DB69C6AFCC65E3E1120FCF17742E36B95F18EBDC42062AD635DDB5281719FE08",
+    "min_supported_version":  "1.0.0"
 }
