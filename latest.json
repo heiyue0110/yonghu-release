@@ -2,16 +2,16 @@
     "version":  "1.2.9",
     "notes":  "永狐 1.2.9 已发布，请查看更新公告了解本次改动。",
     "body":  "永狐 1.2.9 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-03T16:57:37Z",
+    "pub_date":  "2026-07-03T17:27:30Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjlUZ2pzZ2tYWHhrWEZJMEYrbng4SkpFN0c4b3FwTEhqb0ZkYloyMVhYQmtiOHhBalBJUk8rdG9EajhqVVFMdlBZZyt0SHZUSkRKeXFXbERrODJkQlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMDk3ODUwCWZpbGU65rC454uQXzEuMi45X3g2NC1zZXR1cC5leGUKZGl3RnJ3d1A5L3paam1rQ1I2TmpBTDlxdm5nMDJtaWV6Q3cyWjZBZWVSeVVQZ2FpM2RvMDlJRnllY0hleWZGOVVpNGJNYlZzTmsxUXFSMHNwTkVkQ1E9PQo=",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTnpYbGRoTDY0NWZHdTYxQmFjWTMraVE2Y0xBZkhySUkvWDE0QlZrVmNwL2JLdE5FazlYUHdBM2xEODN2OEdWN1ZXNG80alBzOXBaeGo0RjhJRTlKTHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMDk5NjQ0CWZpbGU65rC454uQXzEuMi45X3g2NC1zZXR1cC5leGUKRlJlNzRKT2dQeHI5ZXBtWlRiZ0VwRm9admhyM3EzcTFXVzlKTEFTb21LSFNvY0d2cUsxbzE0UFdTdWdJbHJxTy83UWp0bUhLVVdmZG0zTWx5SWU2Q3c9PQo=",
                                              "url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%B0%B8%E7%8B%90_1.2.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
                                          }
                   },
     "installer":  "永狐_1.2.9_x64_安装程序.exe",
     "download_url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%B0%B8%E7%8B%90_1.2.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
     "announcement_url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.2.9.md",
-    "sha256":  "B65316D3EA21ECDD5B08C67CA5015354CFEDD3AA46DA0468EF6DE631CBEF14FE",
+    "sha256":  "F515B70E846257A16E36A831229780D825D2F4CEC4D1FA21871A4DEE6C9A288A",
     "min_supported_version":  "1.0.0"
 }
