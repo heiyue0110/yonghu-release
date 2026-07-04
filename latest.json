@@ -2,16 +2,16 @@
     "version":  "1.3.9",
     "notes":  "永狐 1.3.9 已发布，请查看更新公告了解本次改动。",
     "body":  "永狐 1.3.9 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-04T16:57:56Z",
+    "pub_date":  "2026-07-04T17:22:33Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTnpZaU1PMTRVZmxacnNNc3hqNGhiT1ZhQTRiZi9kbUFObm1vLzVqTkppT1o3N04rN3lrdnpTSWdMZTZUNG93S3hhVWRaVHdXMnZCTFNzV1dvbktxR2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTg0MjQzCWZpbGU6ZXZlcmZveC0xLjMuOS14NjQtc2V0dXAuZXhlCnVaQkpHdWVCS0RvVzNXaVNZaktJOEQvd3ZhdnRkUERKcnJDcUFFRkVOVjhpaldjYjI2ejhRczFTWnArMUc2VVhGWVNkN1R1eHFwcEJnMW5wZ2VISEFRPT0K",
-                                             "url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%B0%B8%E7%8B%90_1.3.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjFscW15ckVPR2FzazZqeGw0ejNYTEtoRWF5MmIvZzhHSVZOUWhEeGpUVk12RnpTbmhZZHR2cCtKT08rSXhQZnJhckI0R2h0NDMrSmx2V0pMeit6WkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTg1NzI1CWZpbGU6ZXZlcmZveC0xLjMuOS14NjQtc2V0dXAuZXhlCko2WTIzWlROdEJxQVNHZHVhaHpneFFjSWRsN2dCTGJTS0ZnMXJxU0pLR1dIUlFOejlnWVR2ZWVKMWZzblc5djBXOG1UQkdFUFJQaHJHQlVxajl1cUFRPT0K",
+                                             "url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.3.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
                                          }
                   },
     "installer":  "永狐_1.3.9_x64_安装程序.exe",
-    "download_url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%B0%B8%E7%8B%90_1.3.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
-    "announcement_url":  "https://raw.githubusercontent.com/heiyue0110/yonghu-release/main/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.3.9.md",
-    "sha256":  "2501446F0CEEC6804B170D5C92B3C33E689616A12E795936AAAC86F3097ADC5D",
+    "download_url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.3.9_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
+    "announcement_url":  "https://heiyue0110.github.io/yonghu-release/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.3.9.md",
+    "sha256":  "FDEA84E57A2B46E785119DEE3795A1D374D754354F2B4B534149F49806169EA3",
     "min_supported_version":  "1.0.0"
 }
