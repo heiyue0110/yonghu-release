@@ -2,16 +2,16 @@
     "version":  "1.3.11",
     "notes":  "永狐 1.3.11 已发布，请查看更新公告了解本次改动。",
     "body":  "永狐 1.3.11 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-09T18:10:21Z",
+    "pub_date":  "2026-07-09T18:42:55Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjRQOW9KdlRGd0R2STdoUE4zQnJ1c05KUmY4eWVSOUZCTVNZeXp4YzNvR1dSOVNkZHR6U2dSbURxM1ljTlI1amF6YUFXOG91ZlhuOWJEVHlucXNvOUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjIwNjEwCWZpbGU65rC454uQXzEuMy4xMV94NjQtc2V0dXAuZXhlCnZUZ2lNbm9VdFF0ZTU5blFEMDNkaW81WjlleXh5SjZyd1dJSTZray9xVVpMOTJ3VC91Vy8xWEVkeXRBdjZQUTlYYzRwWi9raFdFUmJNdlh5MkRiTkNnPT0K",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjVKdXp5bVpuU3RMWS9LcnF0MEplMGV2dnpDeTZlTmIxY1U3RnNETDJaVHhEUWhYYlFhUGYwZEJWQlhGUXBWaCt3QUg5MU5Ia0VnZEdXOHlmL3Q3K0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjIyNTY5CWZpbGU65rC454uQXzEuMy4xMV94NjQtc2V0dXAuZXhlCmFYWUZCWFR6RTd6Vnpqakc5djZQQWJ5ZVltWVFBTlZMVGRmK3NXd2lmazlKVndWUG9yRXVtNzZkcHYvbENUUWpMRWV0bFk1a0ttT1p1c2hwMTEyL0JBPT0K",
                                              "url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.3.11_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe"
                                          }
                   },
     "installer":  "永狐_1.3.11_x64_安装程序.exe",
     "download_url":  "https://heiyue0110.github.io/yonghu-release/%E6%B0%B8%E7%8B%90_1.3.11_x64_%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.exe",
     "announcement_url":  "https://heiyue0110.github.io/yonghu-release/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.3.11.md",
-    "sha256":  "B6FEA42D41848DD1A681A955D242AE720BE0EC57FF19BA69FBAC319DD54BC7AC",
+    "sha256":  "2E24DD6EACE39FE3E5F9B155C5D150DA712BFCC4D7B1DE0AAFCEC15D0785B328",
     "min_supported_version":  "1.0.0"
 }
