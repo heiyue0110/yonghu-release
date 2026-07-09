@@ -6,9 +6,9 @@
 
 - 发布页：https://heiyue0110.github.io/yonghu-release/
 - GitHub Releases：https://github.com/heiyue0110/yonghu-release/releases
-- 最新正式版本：1.3.10
-- 最新安装包：永狐_1.3.10_x64_安装程序.exe
-- 更新公告：更新公告_1.3.10.md
+- 最新正式版本：1.3.11
+- 最新安装包：永狐_1.3.11_x64_安装程序.exe
+- 更新公告：更新公告_1.3.11.md
 - 自动更新清单：latest.json
 
 ## 自动更新
