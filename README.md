@@ -21,7 +21,7 @@
 
 - `index.html`：公开下载页。
 - `latest.json`：Tauri 自动更新清单。
-- `更新公告_*.md`：版本更新说明。
+- `更新公告_*.md` / `EverFox_*_release_notes.md`：版本更新说明与 Release 下载资产。
 - `EverFox_*_x64_setup.exe`：Windows 安装包。
 - `*.exe.sig`：安装包签名文件。
 

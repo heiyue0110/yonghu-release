@@ -2,7 +2,7 @@
     "version":  "1.4.12",
     "notes":  "永狐 1.4.12 已发布，请查看更新公告了解本次改动。",
     "body":  "永狐 1.4.12 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-11T08:22:53Z",
+    "pub_date":  "2026-07-11T21:01:40Z",
     "platforms":  {
                       "windows-x86_64":  {
                                              "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjJCVGhzT29uTHFXbE51NVJsTUh1bHFCbXMvaHE4R1d5bWFqdHljZ1Y0ZzFON3ZCTXdSOFhMd0tndVVoOEZQOFlRZ0dPQWh0ajRnd3Y4bFVObzZuQVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzU4MTU1CWZpbGU65rC454uQXzEuNC4xMl94NjQtc2V0dXAuZXhlCkEyRE4xMFUzZUE4Q1BWaUpCT2kvdTVPRDVwTHZWUXh2YVYveXZQcVhPUk03cCtJdGZ1MlJtNHRyVDFUdi9XUDhacVE5TmdUZVJuQ2RPMlA3YlZpTUNRPT0K",
@@ -11,7 +11,7 @@
                   },
     "installer":  "EverFox_1.4.12_x64_setup.exe",
     "download_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/EverFox_1.4.12_x64_setup.exe",
-    "announcement_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A_1.4.12.md",
+    "announcement_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/EverFox_1.4.12_release_notes.md",
     "sha256":  "51A78FEDF884F223E4293E4BC0B0E8ADDBCBA07516158711CD142E385EA88CA6",
     "min_supported_version":  "1.0.0"
 }
