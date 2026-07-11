@@ -2,16 +2,16 @@
     "version":  "1.4.12",
     "notes":  "永狐 1.4.12 已发布，请查看更新公告了解本次改动。",
     "body":  "永狐 1.4.12 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-11T21:01:40Z",
+    "pub_date":  "2026-07-11T21:34:45Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjJCVGhzT29uTHFXbE51NVJsTUh1bHFCbXMvaHE4R1d5bWFqdHljZ1Y0ZzFON3ZCTXdSOFhMd0tndVVoOEZQOFlRZ0dPQWh0ajRnd3Y4bFVObzZuQVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNzU4MTU1CWZpbGU65rC454uQXzEuNC4xMl94NjQtc2V0dXAuZXhlCkEyRE4xMFUzZUE4Q1BWaUpCT2kvdTVPRDVwTHZWUXh2YVYveXZQcVhPUk03cCtJdGZ1MlJtNHRyVDFUdi9XUDhacVE5TmdUZVJuQ2RPMlA3YlZpTUNRPT0K",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjV0NlRsS0ZabUVDZzJobENMU0Y1N2ZvRjFyODRnakt6c0gzaWkwWHBZVkxLQUNEVVNROFh6WUlpUW1RY3o4LzFuYUNOeFBDTG5jSDd6cUxYTy9JNVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzODA0ODYzCWZpbGU65rC454uQXzEuNC4xMl94NjQtc2V0dXAuZXhlCnhnMHhGSlRoYnYrdVVMeitIT0d3ejNSREFQN0F6cTV3ZW9WZmFVOHdFYmFZNFUrZW5rblE3RGxSWXUrZFJlYVc1SmZVYWZsV2RGUlNQKy94Z1hVdUNBPT0K",
                                              "url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/EverFox_1.4.12_x64_setup.exe"
                                          }
                   },
     "installer":  "EverFox_1.4.12_x64_setup.exe",
     "download_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/EverFox_1.4.12_x64_setup.exe",
     "announcement_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.12/EverFox_1.4.12_release_notes.md",
-    "sha256":  "51A78FEDF884F223E4293E4BC0B0E8ADDBCBA07516158711CD142E385EA88CA6",
+    "sha256":  "05BE3D736F725B9F040CB4DB91D9E96157AC379BCA266B4E2B66B69F45B3E648",
     "min_supported_version":  "1.0.0"
 }
