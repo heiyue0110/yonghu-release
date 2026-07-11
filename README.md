@@ -6,9 +6,9 @@
 
 - 发布页：https://heiyue0110.github.io/yonghu-release/
 - GitHub Releases：https://github.com/heiyue0110/yonghu-release/releases
-- 最新正式版本：1.3.12
-- 最新安装包：永狐_1.3.12_x64_安装程序.exe
-- 更新公告：更新公告_1.3.12.md
+- 最新正式版本：1.4.12
+- 最新安装包：EverFox_1.4.12_x64_setup.exe
+- 更新公告：更新公告_1.4.12.md
 - 自动更新清单：latest.json
 
 ## 自动更新
@@ -22,7 +22,7 @@
 - `index.html`：公开下载页。
 - `latest.json`：Tauri 自动更新清单。
 - `更新公告_*.md`：版本更新说明。
-- `永狐_*_安装程序.exe`：Windows 安装包。
+- `EverFox_*_x64_setup.exe`：Windows 安装包。
 - `*.exe.sig`：安装包签名文件。
 
 ## 说明
