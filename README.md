@@ -6,9 +6,9 @@
 
 - 发布页：https://heiyue0110.github.io/yonghu-release/
 - GitHub Releases：https://github.com/heiyue0110/yonghu-release/releases
-- 最新正式版本：1.4.12
-- 最新安装包：EverFox_1.4.12_x64_setup.exe
-- 更新公告：更新公告_1.4.12.md
+- 最新正式版本：1.4.13
+- 最新安装包：EverFox_1.4.13_x64_setup.exe
+- 更新公告：更新公告_1.4.13.md
 - 自动更新清单：latest.json
 
 ## 自动更新
