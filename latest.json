@@ -1,17 +1,17 @@
 {
-    "version":  "1.4.14",
-    "notes":  "永狐 1.4.14 已发布，请查看更新公告了解本次改动。",
-    "body":  "永狐 1.4.14 已发布，请查看更新公告了解本次改动。",
-    "pub_date":  "2026-07-16T21:47:42Z",
+    "version":  "1.4.16",
+    "notes":  "永狐 1.4.16 已发布，请查看更新公告了解本次改动。",
+    "body":  "永狐 1.4.16 已发布，请查看更新公告了解本次改动。",
+    "pub_date":  "2026-07-26T15:33:51Z",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjF4bkFBOS9Xb1NRODlHaitQVEozR1dvdzkvdkJ5RWxzOHVocllycFY5aElURDcvZC90Ly9qRVRLdVJyMUEyVnE5K3ZlUjlHN0RYVVEwREtxQUIrYndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MjM4NDI4CWZpbGU65rC454uQXzEuNC4xNF94NjQtc2V0dXAuZXhlCmhFQ3FuWGhCbDg1TElXV0o2dzZYc2xoSlFlMXl0OG10Y2xyOFc5eC9RSEJjZUFWWHBvMXBiUzFoZ0ZuNnQ4U2NCWURoc2phSnJVZU1CMUN1QUlIeUNBPT0K",
-                                             "url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.14/EverFox_1.4.14_x64_setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjUycjlZRERUS2hRaDc1akZwQkJpOHAvZVdPSmpFM3pVSFk2bFEwVFhZbFA3SVplbS9KTzJSTGhpTmY2OEJ1RE1wZ0JPSVd4Wktlb0MzSk05cXZwZEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1MDc5NzUxCWZpbGU65rC454uQXzEuNC4xNl94NjQtc2V0dXAuZXhlCnJNOEhqbmRGK2dKMjBjYk5PU29rZmlvak90RHBYcW4yQ1IwTEZSUGdaeWNjVXVRTFozNjF1aVRnMmZxZHNSMlBYdkFOM3EvcXZBM1JtYjhFM1V6dENnPT0K",
+                                             "url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.16/EverFox_1.4.16_x64_setup.exe"
                                          }
                   },
-    "installer":  "EverFox_1.4.14_x64_setup.exe",
-    "download_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.14/EverFox_1.4.14_x64_setup.exe",
-    "announcement_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.14/EverFox_1.4.14_release_notes.md",
-    "sha256":  "EAF1E2E5EDAFAA933BE9CF46B1166007A34F5363B618DC068ED07410A71A7EE5",
+    "installer":  "EverFox_1.4.16_x64_setup.exe",
+    "download_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.16/EverFox_1.4.16_x64_setup.exe",
+    "announcement_url":  "https://github.com/heiyue0110/yonghu-release/releases/download/v1.4.16/EverFox_1.4.16_release_notes.md",
+    "sha256":  "582E2D4CEA7AF1476DE4E5205EA023891223F3C40A63A274491F21AD3B24559C",
     "min_supported_version":  "1.0.0"
 }
