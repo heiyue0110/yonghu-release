@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0-alpha.4",
+  "notes": "永狐 2.0.0-alpha.4 已发布，请查看更新公告了解本次改动。",
+  "body": "永狐 2.0.0-alpha.4 已发布，请查看更新公告了解本次改动。",
+  "pub_date": "2026-08-21T02:45:45Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTitEK243QThJOWswUzQrZHdDK1drUHlBaUVYU0J0SU45TEpESk5IdGJSTDB4b2dOdnlKcStjRDU5T0w2eFQvbXRBc09vNEJ1VXJiRnl1dk9kS0FJZWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjgwMjc1CWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYWxwaGEuNF94NjQtc2V0dXAuZXhlClBnNDNpd09xam9uTWpLTnB4QXh2OWhFSTBBVFBjMHB2cTZHbHZNUmlyOW5SZ0ZUU3FZVDlqK2FqUUF4UXVkQmxCMnpYQUN4MW1hNXAwUDNRZVZva0NBPT0K",
+      "url": "https://heiyue0110.github.io/yonghu-release/v2-alpha/EverFox_2.0.0-alpha.4_x64_setup.exe"
+    }
+  },
+  "installer": "EverFox_2.0.0-alpha.4_x64_setup.exe",
+  "download_url": "https://heiyue0110.github.io/yonghu-release/v2-alpha/EverFox_2.0.0-alpha.4_x64_setup.exe",
+  "announcement_url": "https://heiyue0110.github.io/yonghu-release/v2-alpha/EverFox_2.0.0-alpha.4_release_notes.md",
+  "sha256": "4CAB4CBD980A97CED3154A41D339DB8CE6A2B06514ABB15E1F03C28DC02BD7D2",
+  "min_supported_version": "1.0.0"
+}
