@@ -5,7 +5,7 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.1.30"
+    "version": "0.1.31"
   },
   "version": "ff46809f10e2",
   "builtAt": "2026-08-27T16:20:04.655Z",
