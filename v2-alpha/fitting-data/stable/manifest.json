@@ -5,12 +5,12 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.1.31"
+    "version": "0.1.32"
   },
-  "version": "ff46809f10e2",
-  "builtAt": "2026-08-27T16:20:04.655Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/vff46809f10e2/",
-  "totalBytes": 8456581,
+  "version": "df0f7b89913c",
+  "builtAt": "2026-09-02T09:25:44.752Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/vdf0f7b89913c/",
+  "totalBytes": 8456755,
   "files": {
     "attributes.json": {
       "bytes": 251846,
@@ -43,9 +43,9 @@
       "entries": 963
     },
     "market-groups.json": {
-      "bytes": 197613,
-      "sha256": "a8ecbc7b18f293a0945374a79b0ae30c4dc044deb6879d36e5678d5da5004287",
-      "entries": 2106
+      "bytes": 197787,
+      "sha256": "3f648e0761a16c03d4a8c8141c26aea6dad55e4982da6a720964f9ce5dedb0e4",
+      "entries": 2108
     },
     "clone-grades.json": {
       "bytes": 18709,
@@ -64,7 +64,7 @@
     },
     "types/ships.json": {
       "bytes": 912962,
-      "sha256": "9b7a95ce4a42dee402f679fb5ae39f5981d5c3903ba0f4006ea612ed643cbe8b",
+      "sha256": "9a6d0e21b0737f8b960593c0b53432a6fecedbcc0f0395322220d7b8a681ebc0",
       "entries": 423
     },
     "types/modules.json": {
