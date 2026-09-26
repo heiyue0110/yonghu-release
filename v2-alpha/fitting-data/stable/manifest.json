@@ -5,12 +5,12 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.2.4"
+    "version": "0.2.5"
   },
-  "version": "e72c5e3eab91",
-  "builtAt": "2026-09-24T09:51:08.771Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/ve72c5e3eab91/",
-  "totalBytes": 8480204,
+  "version": "f328867b2e11",
+  "builtAt": "2026-09-25T10:06:38.519Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/vf328867b2e11/",
+  "totalBytes": 8480256,
   "files": {
     "attributes.json": {
       "bytes": 254999,
@@ -53,8 +53,8 @@
       "entries": 4
     },
     "dbuff-collections.json": {
-      "bytes": 87444,
-      "sha256": "664b493edaca659e9c3be8002e0f8e23163d920a90c0a740cf0638278da42254",
+      "bytes": 87496,
+      "sha256": "9b5e2bb685e6f3e728f7fc00febe1a79f81d4de6fc5fca3ff710917cf5c85e22",
       "entries": 276
     },
     "dynamic-attributes.json": {
