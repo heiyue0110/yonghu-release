@@ -5,12 +5,12 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.2.5"
+    "version": "0.2.6"
   },
-  "version": "f328867b2e11",
-  "builtAt": "2026-09-25T10:06:38.519Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/vf328867b2e11/",
-  "totalBytes": 8480256,
+  "version": "979b1eaaa4c3",
+  "builtAt": "2026-09-28T11:36:31.384Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/v979b1eaaa4c3/",
+  "totalBytes": 8480255,
   "files": {
     "attributes.json": {
       "bytes": 254999,
@@ -118,8 +118,8 @@
       "entries": 356
     },
     "types/mutaplasmids.json": {
-      "bytes": 559756,
-      "sha256": "b77552c0d0d1461a6cea091d73d3ddcdf0b17f68e68703a6873d13be5ebc8ea3",
+      "bytes": 559755,
+      "sha256": "326f3ce52bad873171b645d0ed4243743aea7eeba4e15be4a70fc0b09b296b15",
       "entries": 2848
     }
   }
