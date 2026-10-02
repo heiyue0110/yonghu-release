@@ -5,11 +5,11 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.2.6"
+    "version": "0.2.7"
   },
-  "version": "979b1eaaa4c3",
-  "builtAt": "2026-09-28T11:36:31.384Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/v979b1eaaa4c3/",
+  "version": "e621e9561f13",
+  "builtAt": "2026-10-01T11:29:46.579Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/ve621e9561f13/",
   "totalBytes": 8480255,
   "files": {
     "attributes.json": {
