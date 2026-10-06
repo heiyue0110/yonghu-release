@@ -1,0 +1,22 @@
+{
+  "contract": "everfox-static-data",
+  "contractVersion": 1,
+  "schemaVersion": 1,
+  "version": "376563bbe08bf74e",
+  "builtAt": "2026-08-09T05:30:22.916Z",
+  "totalBytes": 1145635,
+  "files": {
+    "universe-map.json": {
+      "bytes": 859334,
+      "sha256": "3437896cd9f6fe13ec7d0b6bbc678c332585cc33fd1047ba77678d90853a12b3",
+      "entries": 6,
+      "url": "datasets/376563bbe08bf74e/universe-map.json"
+    },
+    "data/eve-type-names.zh.json": {
+      "bytes": 286301,
+      "sha256": "72a5e405840714ba6eb4c1a26777829a0ad55dec4316d466eda8ca3676661918",
+      "entries": 7019,
+      "url": "datasets/376563bbe08bf74e/data/eve-type-names.zh.json"
+    }
+  }
+}

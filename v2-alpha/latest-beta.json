@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-beta.2",
+  "channel": "beta",
+  "notes": "Beta 测试版：预警提醒、疲劳计时、观察对象清除与远控体验改进。部分功能仍需真实环境测试。",
+  "body": "Beta 测试版：预警提醒、疲劳计时、观察对象清除与远控体验改进。部分功能仍需真实环境测试。",
+  "pub_date": "2026-10-06T14:43:46Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjlvTTRvcmZ6UnVtZHJrbWFPb2c0M1dLdC9zM0RKYVoyZDA2WXBBL0FqZUE4WTUxZktSNXJIc2ErSTVVbjdoUWpJdysvK0NSQWZHSTVrcitTMllYd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjk3ODAwCWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYmV0YS4yX3g2NC1zZXR1cC5leGUKUzdXeWRyUC8yUnhmQWFOMkR0T2NITnQ0bUhkQnVDRzR3azF3S3pjWGNqeW5KWUpmTjN6ZjJ2Q2xCMW1LeTRlcStidERFa2tPeXV2dWdqUE1DZ2JvQ2c9PQo=",
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_x64_setup.exe"
+    }
+  },
+  "installer": "EverFox_2.0.0-beta.2_x64_setup.exe",
+  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_x64_setup.exe",
+  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_release_notes.md",
+  "sha256": "8FDE9D834B69533A5A0B551DB88961449D0E31FE62D7922955D954C3AB8233EC",
+  "min_supported_version": "1.0.0",
+  "highlights": [
+    {
+      "title": "预警提醒",
+      "detail": "同一事件含首次最多提醒三次，解除后再次出现重新计数。"
+    },
+    {
+      "title": "疲劳计时",
+      "detail": "完整显示等待时间与剩余分钟，可分别手动修正。"
+    },
+    {
+      "title": "观察对象",
+      "detail": "新增一键清除，刷新后仍保留清除结果。"
+    },
+    {
+      "title": "局域网远控",
+      "detail": "优化截图采集与缩放，改善远控刷新体验。"
+    },
+    {
+      "title": "测试版更新",
+      "detail": "独立测试清单；下载安装与重启由用户确认。"
+    }
+  ],
+  "buildId": "windows-20261006143624-4f9978f5",
+  "releaseId": "source-4f9978f53604",
+  "sourceRevision": "4f9978f53604",
+  "builtAt": "2026-10-06T14:36:24.676Z"
+}

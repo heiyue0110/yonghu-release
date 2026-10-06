@@ -28,3 +28,13 @@
 ## 说明
 
 本仓库只用于永狐发布与更新源维护，不是主源码仓库。
+
+## Beta 测试版
+
+- 当前 Windows 测试版：2.0.0-beta.2（2026-10-06）
+- [下载安装包](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_x64_setup.exe)
+- [更新公告](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_release_notes.md)
+- [测试版更新清单](https://heiyue0110.github.io/yonghu-release/v2-alpha/latest-beta.json)
+- 安装包 SHA256：`8FDE9D834B69533A5A0B551DB88961449D0E31FE62D7922955D954C3AB8233EC`
+
+这是测试版，不是正式版。部分功能可能不完整；请与正式版分目录安装，不要同时运行。9 月 25 日 beta.1 用户需开启“测试版通道”后检查更新。正式版仍为 1.4.16。本次仅发布 Windows x64，手机 APK 沿用 Alpha。
