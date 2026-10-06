@@ -1,44 +1,44 @@
 {
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.2.1",
   "channel": "beta",
-  "notes": "Beta 测试版：预警提醒、疲劳计时、观察对象清除与远控体验改进。部分功能仍需真实环境测试。",
-  "body": "Beta 测试版：预警提醒、疲劳计时、观察对象清除与远控体验改进。部分功能仍需真实环境测试。",
-  "pub_date": "2026-10-06T14:43:46Z",
+  "notes": "Beta 修复版：完整星图缓存读取、数据刷新和失败重试、软件更新入口、突发聊天预警处理。",
+  "body": "Beta 修复版：完整星图缓存读取、数据刷新和失败重试、软件更新入口、突发聊天预警处理。",
+  "pub_date": "2026-10-06T17:26:49Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjlvTTRvcmZ6UnVtZHJrbWFPb2c0M1dLdC9zM0RKYVoyZDA2WXBBL0FqZUE4WTUxZktSNXJIc2ErSTVVbjdoUWpJdysvK0NSQWZHSTVrcitTMllYd3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjk3ODAwCWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYmV0YS4yX3g2NC1zZXR1cC5leGUKUzdXeWRyUC8yUnhmQWFOMkR0T2NITnQ0bUhkQnVDRzR3azF3S3pjWGNqeW5KWUpmTjN6ZjJ2Q2xCMW1LeTRlcStidERFa2tPeXV2dWdqUE1DZ2JvQ2c9PQo=",
-      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_x64_setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTi9YN085M3VvZWVaeGFIYUY5QlhoYkdKeTdMd2d5WlhwclZxbHdqTXplS2hYWjA0Tk1oaHkyOTBGNVJBR1dibE93N0cxcFpOTmNJSVlxTEJLa2pVbncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA3NTU5CWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYmV0YS4yLjFfeDY0LXNldHVwLmV4ZQoyekY2RTQ5Z1oyVGM1Wm13WGtTVzdvM2xZRFFvZG95WjJnVE9KMS9IRjZSQm4wUXFxQ2FIZHgycEFzMCtEck94Sks1SkJlRWtJTytTZHJTMFFQUjlDUT09Cg==",
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_x64_setup.exe"
     }
   },
-  "installer": "EverFox_2.0.0-beta.2_x64_setup.exe",
-  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_x64_setup.exe",
-  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2/EverFox_2.0.0-beta.2_release_notes.md",
-  "sha256": "8FDE9D834B69533A5A0B551DB88961449D0E31FE62D7922955D954C3AB8233EC",
+  "installer": "EverFox_2.0.0-beta.2.1_x64_setup.exe",
+  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_x64_setup.exe",
+  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_release_notes.md",
+  "sha256": "6C597441091AA1E0C9285716A395A07668FDD4CC995D5CA84ECA3BA3C2CD3A0C",
   "min_supported_version": "1.0.0",
   "highlights": [
     {
-      "title": "预警提醒",
-      "detail": "同一事件含首次最多提醒三次，解除后再次出现重新计数。"
+      "title": "完整星图",
+      "detail": "修复桌面策略拦截缓存读取导致仅显示航线节点的问题。"
     },
     {
-      "title": "疲劳计时",
-      "detail": "完整显示等待时间与剩余分钟，可分别手动修正。"
+      "title": "数据刷新",
+      "detail": "更新数据后刷新星图，失败说明原因并可重新加载。"
     },
     {
-      "title": "观察对象",
-      "detail": "新增一键清除，刷新后仍保留清除结果。"
+      "title": "软件更新",
+      "detail": "数据页可直接检查软件更新，开启测试版通道后立即检查。"
     },
     {
-      "title": "局域网远控",
-      "detail": "优化截图采集与缩放，改善远控刷新体验。"
+      "title": "聊天预警",
+      "detail": "减少突发消息重复读取，保留完整持久化与事件去重。"
     },
     {
-      "title": "测试版更新",
-      "detail": "独立测试清单；下载安装与重启由用户确认。"
+      "title": "直接升级",
+      "detail": "beta.1 和 beta.2 均可直接升级；安装与重启需主动确认。"
     }
   ],
-  "buildId": "windows-20261006143624-4f9978f5",
-  "releaseId": "source-4f9978f53604",
-  "sourceRevision": "4f9978f53604",
-  "builtAt": "2026-10-06T14:36:24.676Z"
+  "buildId": "windows-20261006171555-9c102202",
+  "releaseId": "source-9c102202f185",
+  "sourceRevision": "9c102202f185",
+  "builtAt": "2026-10-06T17:15:55.756Z"
 }
