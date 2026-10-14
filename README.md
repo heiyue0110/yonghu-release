@@ -31,10 +31,13 @@
 
 ## Beta 测试版
 
-- 当前 Windows 测试版：2.0.0-beta.2.1（2026-10-07）
-- [下载安装包](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_x64_setup.exe)
-- [更新公告](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_release_notes.md)
+- 当前 Windows / Android ARM64 测试版：2.0.0-beta.3（2026-10-14）
+- [Windows 安装包](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_x64_setup.exe) · [Android 测试 APK](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_android-arm64-test.apk)
+- [更新公告](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_release_notes.md) · [文件校验](https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/SHA256_2.0.0-beta.3.txt)
 - [测试版更新清单](https://heiyue0110.github.io/yonghu-release/v2-alpha/latest-beta.json)
-- 安装包 SHA256：`6C597441091AA1E0C9285716A395A07668FDD4CC995D5CA84ECA3BA3C2CD3A0C`
+- Windows SHA256：`91B06696FE047CD1DAE0AA6F9ED354DB1F9EC593E2049CCE215CF8A9E3D60326`
+- Android SHA256：`E90988F7DAF618BCED0E375416C142FF0E9FF99BFC1C57565701F7EC9FB8356C`
 
-这是测试版，不是正式版。部分功能可能不完整；请与正式版分目录安装，不要同时运行。beta.1 / beta.2 用户需开启“测试版通道”后检查更新。正式版仍为 1.4.16。本次仅发布 Windows x64，手机 APK 沿用 Alpha。
+完善便捷小窗、市场与配装工作台、游戏通知历史、手机设置及双端恢复。正式版仍为 1.4.16，旧 Alpha 清单保留。Windows 须开启测试版通道；手机 Beta/RC 使用测试清单。安装和真实游戏写入由用户主动确认。
+
+Windows 有 Tauri 更新签名，未做商业代码签名。Android 为现有 Debug 测试签名，包名不变，versionCode 2000010。最新真机远控、实际 EVE 写入与手机覆盖升级尚未验收，详见公告。

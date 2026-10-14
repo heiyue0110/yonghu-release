@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0-beta.3",
+  "releaseId": "everfox-beta3-20261014",
+  "sourceCommit": "ec62958",
+  "sourceRevision": "f5f0904e3bbc",
+  "builtAt": "2026-10-14T07:52:00.000Z",
+  "windowsBuildId": "windows-beta3-20261014",
+  "androidBuildId": "android-beta3-20261014",
+  "androidPackage": "com.everfox.companion",
+  "androidVersionCode": 2000010,
+  "androidCertificateSha256": "7f33d47e7a26513f8cae63e2590846205fd312041c48cac966d64a7d3f87b9a5",
+  "androidSigning": "debug (testing only)",
+  "windowsSha256": "91B06696FE047CD1DAE0AA6F9ED354DB1F9EC593E2049CCE215CF8A9E3D60326",
+  "androidSha256": "E90988F7DAF618BCED0E375416C142FF0E9FF99BFC1C57565701F7EC9FB8356C"
+}

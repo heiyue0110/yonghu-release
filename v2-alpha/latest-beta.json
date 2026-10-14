@@ -1,44 +1,75 @@
 {
-  "version": "2.0.0-beta.2.1",
+  "version": "2.0.0-beta.3",
   "channel": "beta",
-  "notes": "Beta 修复版：完整星图缓存读取、数据刷新和失败重试、软件更新入口、突发聊天预警处理。",
-  "body": "Beta 修复版：完整星图缓存读取、数据刷新和失败重试、软件更新入口、突发聊天预警处理。",
-  "pub_date": "2026-10-06T17:26:49Z",
+  "notes": "Beta.3：便捷小窗、市场与配装工作台、游戏通知历史、手机设置和双端恢复。",
+  "body": "Beta.3：便捷小窗、市场与配装工作台、游戏通知历史、手机设置和双端恢复。",
+  "pub_date": "2026-10-14T08:05:39Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTi9YN085M3VvZWVaeGFIYUY5QlhoYkdKeTdMd2d5WlhwclZxbHdqTXplS2hYWjA0Tk1oaHkyOTBGNVJBR1dibE93N0cxcFpOTmNJSVlxTEJLa2pVbncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzA3NTU5CWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYmV0YS4yLjFfeDY0LXNldHVwLmV4ZQoyekY2RTQ5Z1oyVGM1Wm13WGtTVzdvM2xZRFFvZG95WjJnVE9KMS9IRjZSQm4wUXFxQ2FIZHgycEFzMCtEck94Sks1SkJlRWtJTytTZHJTMFFQUjlDUT09Cg==",
-      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_x64_setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjFkMUU2NmRkVzZVVXVPVGtjMENSQldxVVpzMW1sRzMyYTRubUowY1ZGVjZDaFJJNGNSVVE3b0kvMHhYRFBrdmJPNG1DbGtmZEFYTHhOVGpOYktka1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTY1MDgyCWZpbGU65rC454uQIDIuMCDlvIDlj5HniYhfMi4wLjAtYmV0YS4zX3g2NC1zZXR1cC5leGUKUmFobytTa1NFV2JwdEd1K0dzdjJlZnJOVzBLUFViMUFPTEQvWm03Zkc3V1l1M2xBcjQvUnA1U0E2V3ByaGw5bi9Kb1lIYlZVbWpPOXZlOUlrYkZ1QXc9PQo=",
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_x64_setup.exe",
+      "sha256": "91B06696FE047CD1DAE0AA6F9ED354DB1F9EC593E2049CCE215CF8A9E3D60326",
+      "size": 73455761
+    },
+    "android-arm64": {
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_android-arm64-test.apk",
+      "sha256": "E90988F7DAF618BCED0E375416C142FF0E9FF99BFC1C57565701F7EC9FB8356C",
+      "size": 92715880,
+      "buildId": "android-beta3-20261014",
+      "versionCode": 2000010,
+      "signing": "debug (testing only)"
     }
   },
-  "installer": "EverFox_2.0.0-beta.2.1_x64_setup.exe",
-  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_x64_setup.exe",
-  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.2.1/EverFox_2.0.0-beta.2.1_release_notes.md",
-  "sha256": "6C597441091AA1E0C9285716A395A07668FDD4CC995D5CA84ECA3BA3C2CD3A0C",
+  "installer": "EverFox_2.0.0-beta.3_x64_setup.exe",
+  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_x64_setup.exe",
+  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0-beta.3/EverFox_2.0.0-beta.3_release_notes.md",
+  "sha256": "91B06696FE047CD1DAE0AA6F9ED354DB1F9EC593E2049CCE215CF8A9E3D60326",
   "min_supported_version": "1.0.0",
   "highlights": [
     {
-      "title": "完整星图",
-      "detail": "修复桌面策略拦截缓存读取导致仅显示航线节点的问题。"
+      "title": "便捷小窗",
+      "brief": "五类工具可多开、复制、缩放和置顶。",
+      "detail": "预警、市场、路线、画像和虫洞入口嵌入原页面操作区；可重复打开独立小窗、复制当前工具、自由调整大小并切换置顶，任务栏可找回。"
     },
     {
-      "title": "数据刷新",
-      "detail": "更新数据后刷新星图，失败说明原因并可重新加载。"
+      "title": "搜索与键位",
+      "brief": "小窗搜索支持联想，快捷键可自定义。",
+      "detail": "市场、路线、画像与虫洞复用既有联想数据；设置可保存小窗和快捷指令键位，支持冲突反馈、恢复默认和重启恢复，初始引导提供小窗试用入口。"
     },
     {
-      "title": "软件更新",
-      "detail": "数据页可直接检查软件更新，开启测试版通道后立即检查。"
+      "title": "市场与角色",
+      "brief": "市场收纳财务入口，角色数据首次显示自动读取。",
+      "detail": "查价入口更名市场，收纳订单、钱包和采矿，保留角色页原入口；联系人与游戏通知等首次显示自动读取，角色变化作废旧响应并隐藏旧私有资料。"
     },
     {
-      "title": "聊天预警",
-      "detail": "减少突发消息重复读取，保留完整持久化与事件去重。"
+      "title": "配装与航点",
+      "brief": "优化配装操作区，游戏写入须确认角色与内容。",
+      "detail": "配装收藏、模板、作业参数与EFT导入直接呈现；配装保存和游戏航点写入核对当前角色、账号及权限，切换身份关闭旧确认，失败或不确定结果保留原因且不自动重试。"
     },
     {
-      "title": "直接升级",
-      "detail": "beta.1 和 beta.2 均可直接升级；安装与重启需主动确认。"
+      "title": "通知历史",
+      "brief": "游戏通知可手动记入历史，并单独筛选。",
+      "detail": "手动导入游戏通知摘要，按账号、角色与通知编号去重；显示通知时间与记录时间，提供独立筛选；不自动提醒、不作为战斗证据，角色切换立即隐藏旧私有摘要。"
+    },
+    {
+      "title": "手机设置",
+      "brief": "手机设置使用独立分类入口。",
+      "detail": "外观、预警、同步、版本与帮助通过独立设置首页进入，退出对应设置返回分类首页；保留原持久化控制器和既有主题，不把主题作为产品结构。"
+    },
+    {
+      "title": "远控恢复",
+      "brief": "修复画面颜色与指针，取消断网或退出后的旧待发操作。",
+      "detail": "修正画面颜色转换与指针定位，输入按顺序发送；关闭、后台、会话失效和网络失败丢弃未发送旧操作并安全释放，恢复重新校准指针；已发送请求仍按等待和超时路径收尾。"
+    },
+    {
+      "title": "账号与更新",
+      "brief": "保护双端恢复后的新账号，完善数据页和更新说明。",
+      "detail": "旧启动会话刷新与旧配对读取不覆盖或清理新账号；普通访问失败保留可能有效的刷新凭据。数据页改善开关与布局，简易和详细说明保持同一批条目，只改变文案详略。"
     }
   ],
-  "buildId": "windows-20261006171555-9c102202",
-  "releaseId": "source-9c102202f185",
-  "sourceRevision": "9c102202f185",
-  "builtAt": "2026-10-06T17:15:55.756Z"
+  "buildId": "windows-beta3-20261014",
+  "releaseId": "everfox-beta3-20261014",
+  "sourceRevision": "f5f0904e3bbc",
+  "builtAt": "2026-10-14T07:52:00.000Z",
+  "sourceCommit": "ec62958"
 }
