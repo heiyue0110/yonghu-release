@@ -17,7 +17,8 @@
       "size": 30323428,
       "buildId": "android-formal-20261014",
       "versionCode": 2000011,
-      "signing": "release build; original compatibility certificate; debuggable=false"
+      "signing": "release build; original compatibility certificate; debuggable=false",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjQ5MmdFSTJGVGtGN1RBaG1pckZDQUxCMzFnZnJ6a1hscnZXR0hBWGhmMjRvbFNkYURRckROM0NBWExHSU5tT1Mxc3FsUUhnMmdiU3g0bUs4SzEwZWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTkyNzk0CWZpbGU6RXZlckZveF8yLjAuMF9hbmRyb2lkLWFybTY0LmFwawpWRzVWSzJaeVptTCtPUEZCUTdtREN4RFFtZ1BpQk5mWFdXSGdrTmg0cjFOUE1YZitBcFlPTHkrNGpRaGROZ3VXSVJUUEZyckFlZk9NSzJ0MzFhNkZDdz09Cg=="
     }
   },
   "installer": "EverFox_2.0.0_x64_setup.exe",
