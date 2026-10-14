@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "2.0.0",
+  "releaseChannel": "stable",
+  "target": "web",
+  "releaseId": "everfox-2.0.0-20261014",
+  "buildId": "web-formal-20261014",
+  "builtAt": "2026-10-14T14:14:56.868Z",
+  "sourceRevision": "9b298294ff86",
+  "components": {
+    "cloudSource": "cloud-d5eeaa33f8",
+    "operationRules": "operation-f2628f658a",
+    "channelRules": "channel-37b6286a9c",
+    "screenDetector": "screen-ab18c9fe24",
+    "fittingData": "7675c6c47def",
+    "syncSchema": "sync-2"
+  }
+}

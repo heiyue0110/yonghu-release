@@ -1,0 +1,97 @@
+{
+  "version": "2.0.0",
+  "channel": "stable",
+  "notes": "永狐 2.0 正式版：桌面工作台、预警情报、路线市场、配装、便捷小窗、手机与 Web、同步和远控更新。",
+  "pub_date": "2026-10-14T14:14:56.868Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0/EverFox_2.0.0_x64_setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTi9mbzFxbzd3c1ZEWjBGb2NiQm4welAxWWNnZUlGQWQ4TkZlMThXVTYxSDl4Z3VRRFBvdmVkSzR0MGd1eHVvdTFQUGNVRzAzSS9YRXQxcXJoSXBCbUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg3ODEyCWZpbGU65rC454uQXzIuMC4wX3g2NC1zZXR1cC5leGUKemJqeUxXUVh2Vi81Yk5uUEltTVVFcERsS1RiU2tvNlRraGs2bGFObjFraWZ3cks0bmM2R0hKTHJrSkZXMzNWUGY1dFRTUHlWUkVZZEJTOFhLUnJWQXc9PQo=",
+      "sha256": "1BA224AFDB3DC8D5C1C69AB34D5C098B29ECDA1297DB419AFF16D761A79D3517",
+      "size": 73461657,
+      "buildId": "windows-formal-20261014"
+    },
+    "android-arm64": {
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0/EverFox_2.0.0_android-arm64.apk",
+      "sha256": "C4D0942B56571BE52A3249B7104DE105F74AD6B296F24AF9FF037D35B843BC03",
+      "size": 30323428,
+      "buildId": "android-formal-20261014",
+      "versionCode": 2000011,
+      "signing": "release build; original compatibility certificate; debuggable=false"
+    }
+  },
+  "installer": "EverFox_2.0.0_x64_setup.exe",
+  "download_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0/EverFox_2.0.0_x64_setup.exe",
+  "announcement_url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.0/EverFox_2.0.0_release_notes.md",
+  "sha256": "1BA224AFDB3DC8D5C1C69AB34D5C098B29ECDA1297DB419AFF16D761A79D3517",
+  "min_supported_version": "1.0.0",
+  "highlights": [
+    {
+      "title": "桌面工作台",
+      "brief": "更新导航、快捷操作与主题设置。",
+      "detail": "桌面工作台保留既有页面，整合导航、命令面板与首次引导；支持主题、强调色、字号、缩放和界面密度。罗德岛作为可切换主题，不决定软件功能结构。"
+    },
+    {
+      "title": "预警与事件",
+      "brief": "完善预警记录、状态管理和失败恢复。",
+      "detail": "聊天、屏幕和KM/ZKB预警保留来源与历史；持久事件支持去重、确认、静音和解除，突发记录按顺序处理。来源失效、后台重启和保存失败显示真实状态，屏幕识别与监控默认不主动开启。"
+    },
+    {
+      "title": "星图与路线",
+      "brief": "保留完整星图，补齐路线与航点操作。",
+      "detail": "完整星图支持数据更新和失败重试；路线提供风险参考、跳桥资料与旗舰距离约束。普通星门路线可在角色确认后写入游戏航点，旗舰、虫洞和不可靠路线不冒充可写路线；不执行自动飞行。"
+    },
+    {
+      "title": "市场工作台",
+      "brief": "集中查价、订单和财务信息。",
+      "detail": "查价更名市场，收纳物品检索、价格、角色订单、钱包与采矿入口；订单竞争参考显示范围、缓存时间和核对状态，不自动改单。钱包统计区分流水与成交，采矿估值只作参考。"
+    },
+    {
+      "title": "角色与通知",
+      "brief": "读取角色资料并整理游戏通知历史。",
+      "detail": "角色页保留技能、位置、舰船、战绩和财务等资料，联系人、游戏通知首次进入可自动读取。私有结果按角色与账号隔离；游戏通知作为历史摘要显示发生时间与记录时间，可独立筛选，不冒充实时战斗证据。"
+    },
+    {
+      "title": "配装工作台",
+      "brief": "完善编辑、EFT、收藏和方案管理。",
+      "detail": "共享配装引擎支持选船、槽位编辑、技能与资源属性、EFT导入导出、收藏、模板、作业参数、采购清单和方案比较。保存到游戏前展示角色与配装快照，创建个人配装；取消保留草稿，结果不确定不自动重试。"
+    },
+    {
+      "title": "便捷小窗",
+      "brief": "五类工具多开、缩放、置顶和复制。",
+      "detail": "预警、市场、路线、画像与虫洞页面内可直接打开对应小窗；重复打开和复制产生独立窗口，可自由缩放、置顶并从任务栏找回。搜索支持联想，设置可自定义小窗与快捷指令键位，提供冲突提示和重启恢复。"
+    },
+    {
+      "title": "手机与Web",
+      "brief": "手机布局、独立设置和公开工具更新。",
+      "detail": "手机保留控制台、配装、情报、市场与我的；全局设置采用分类首页、对应子页、返回分类首页。公开配装与市场工具可离线或免账号使用已有公开数据；Web提供下载、更新说明和公开分享入口。"
+    },
+    {
+      "title": "同步与分享",
+      "brief": "保留结构化同步、冲突恢复和分享。",
+      "detail": "免费账号同步配置、配装、路线等结构化资料；冲突保留可选择的历史快照，失败不伪装已保存，旧账号回执不影响当前账号。只读分享展示公开快照，不上传ESI令牌、密钥、原始聊天或截图。"
+    },
+    {
+      "title": "远程协作",
+      "brief": "完善配对、选屏、指针与断网恢复。",
+      "detail": "支持账号配对和局域网短码/二维码直连。远控修正画面颜色、选屏坐标、缩放与指针顺序；关闭、后台、会话失效及网络失败丢弃未发旧输入并安全释放，恢复重新校准；已发送请求沿既有等待和超时路径处理。"
+    },
+    {
+      "title": "安全与恢复",
+      "brief": "加强账号、目录和本地持久化保护。",
+      "detail": "配置、账号凭据和运行记录增加原子保存、损坏保护、目录冲突拒绝与后台单实例检查。首次从旧正式版升级前生成本机备份，敏感配置加密存档；正式账号库存在时不覆盖，Beta原数据保留。"
+    },
+    {
+      "title": "数据与更新",
+      "brief": "支持独立数据更新和统一正式更新。",
+      "detail": "配装及星图等数据可按清单校验后更新，下载或校验失败继续使用旧数据。电脑接入正式更新源，手机检查、下载和安装包校验后交给系统确认；下载页与安装包版本、公告和校验信息同步。"
+    }
+  ],
+  "buildId": "windows-formal-20261014",
+  "releaseId": "everfox-2.0.0-20261014",
+  "sourceRevision": "9b298294ff86",
+  "builtAt": "2026-10-14T14:14:56.868Z",
+  "sourceCommit": "75d92d850202851fd12d5dfce8eb23fe4d9ddec8",
+  "web_url": "https://heiyue0110.github.io/yonghu-release/app/",
+  "body": "永狐 2.0 正式版：桌面工作台、预警情报、路线市场、配装、便捷小窗、手机与 Web、同步和远控更新。"
+}

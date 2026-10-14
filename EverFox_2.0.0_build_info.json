@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "2.0.0",
+  "releaseChannel": "stable",
+  "target": "windows",
+  "releaseId": "everfox-2.0.0-20261014",
+  "buildId": "windows-formal-20261014",
+  "builtAt": "2026-10-14T14:14:56.868Z",
+  "sourceRevision": "9b298294ff86",
+  "components": {
+    "cloudSource": "cloud-d5eeaa33f8",
+    "operationRules": "operation-f2628f658a",
+    "channelRules": "channel-37b6286a9c",
+    "screenDetector": "screen-ab18c9fe24",
+    "fittingData": "7675c6c47def",
+    "syncSchema": "sync-2"
+  },
+  "sourceCommit": "75d92d850202851fd12d5dfce8eb23fe4d9ddec8",
+  "artifacts": [
+    {
+      "name": "EverFox_2.0.0_x64_setup.exe",
+      "sha256": "1BA224AFDB3DC8D5C1C69AB34D5C098B29ECDA1297DB419AFF16D761A79D3517",
+      "size": 73461657,
+      "buildId": "windows-formal-20261014"
+    },
+    {
+      "name": "EverFox_2.0.0_android-arm64.apk",
+      "sha256": "C4D0942B56571BE52A3249B7104DE105F74AD6B296F24AF9FF037D35B843BC03",
+      "size": 30323428,
+      "buildId": "android-formal-20261014"
+    },
+    {
+      "name": "EverFox_2.0.0_web.zip",
+      "sha256": "E2A0843F196429195DE9A21D7D99C90F42E1F33C89DC9F1FF51A2FC15A0CB221",
+      "size": 1559376,
+      "buildId": "web-formal-20261014"
+    }
+  ]
+}

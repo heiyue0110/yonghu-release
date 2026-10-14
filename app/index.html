@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 2026-10-03（主人反馈「手机软件还能放大缩小」）：原生外壳里禁止双指缩放/双击缩放，
+         页面固定 1:1。真正的兜底在 EverFoxNativePlugin.load() 里关 WebView 的 supportZoom。 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0d111b" />
+    <meta name="description" content="永狐 EverFox 2.0 — EVE Online 作业、配装与情报辅助控制台" />
+    <title>永狐 / EverFox 2.0</title>
+    <style>
+      html, body { margin: 0; min-height: 100%; background: #090d15; color: #f3f5fb; }
+      .everfox-boot-shell {
+        min-height: 100vh; display: grid; place-items: center; text-align: center;
+        font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+      }
+      .everfox-boot-mark {
+        width: 56px; height: 56px; margin: 0 auto 18px; border-radius: 18px;
+        display: grid; place-items: center; color: #ffad14; font-size: 30px;
+        border: 1px solid #344054; background: #111827;
+      }
+      .everfox-boot-shell strong { display: block; font-size: 20px; }
+      .everfox-boot-shell p { margin: 6px 0 0; color: #919aab; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-aGyf1702.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-BCSIAD6W.js">
+    <link rel="modulepreload" crossorigin href="./assets/icons-BuKFqL9Y.js">
+    <link rel="modulepreload" crossorigin href="./assets/cloudbase-zpI8hRP_.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-CCIRXFDO.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="everfox-boot-shell" aria-live="polite" aria-busy="true">
+        <div>
+          <div class="everfox-boot-mark" aria-hidden="true">狐</div>
+          <strong>正在启动永狐</strong>
+          <p>正在准备本地数据与安全连接…</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
