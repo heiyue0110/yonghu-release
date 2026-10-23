@@ -1,0 +1,4 @@
+# 补丁与静态数据集按原始字节存取，禁止换行转换（清单里是 sha256，转换会让校验失败）
+v2-alpha/patches/** -text
+datasets/** -text
+v2-alpha/datasets/** -text
