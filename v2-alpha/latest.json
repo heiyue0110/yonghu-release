@@ -5,7 +5,7 @@
   "pub_date": "2026-10-23T11:39:23.524Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://gh-proxy.com/https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.1/EverFox_2.0.1_x64_setup.exe",
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.1/EverFox_2.0.1_x64_setup.exe",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjZZWW41T00wbmRjVzcwUmJuQmlkZXlXZHNmZHZOK0kvR2Q0VWgwZmd1UjRrN2tOM2RtclRIUnRreHZaMUtYUkFRMGpxMnFXSGJ5N1pVNjMyTlVqeFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU0MTc5CWZpbGU65rC454uQXzIuMC4xX3g2NC1zZXR1cC5leGUKMkNwK213OVBGTlJSUW9yNTFGZVUrWTQ1aE5hWCtBNmxhaTNjWlkvTlJEeFBrWXpUclhjN1ljRVBJeE1VV0VDV2RxN1BXL2p6UlVjSUc0QmRQdngvRGc9PQo=",
       "sha256": "3846ACE83A299A20A1B756D87C00314C63C3E26B44F3F4384C5B6C881AB21A1C"
     }
