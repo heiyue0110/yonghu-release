@@ -1,13 +1,13 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
   "channel": "stable",
-  "notes": "设置数据页重整与页签吸顶、更新要点弹窗、EVE 总览覆盖工具修正、配装弹药平铺、更新入口去重；全局快捷键冲突自动换备选键。",
-  "pub_date": "2026-10-23T11:39:23.524Z",
+  "notes": "- 市场查价：搜索改为本地中文名称优先，输入物品名即时出结果；本地未命中时提示正在联网补充。",
+  "pub_date": "2026-10-26T10:28:23.585Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.1/EverFox_2.0.1_x64_setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTjZZWW41T00wbmRjVzcwUmJuQmlkZXlXZHNmZHZOK0kvR2Q0VWgwZmd1UjRrN2tOM2RtclRIUnRreHZaMUtYUkFRMGpxMnFXSGJ5N1pVNjMyTlVqeFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU0MTc5CWZpbGU65rC454uQXzIuMC4xX3g2NC1zZXR1cC5leGUKMkNwK213OVBGTlJSUW9yNTFGZVUrWTQ1aE5hWCtBNmxhaTNjWlkvTlJEeFBrWXpUclhjN1ljRVBJeE1VV0VDV2RxN1BXL2p6UlVjSUc0QmRQdngvRGc9PQo=",
-      "sha256": "3846ACE83A299A20A1B756D87C00314C63C3E26B44F3F4384C5B6C881AB21A1C"
+      "url": "https://github.com/heiyue0110/yonghu-release/releases/download/v2.0.2/EverFox_2.0.2_x64_setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGhCdkc0RkNkTnhReG41SDFQZ3lLSnY3Yk1tVXdmMzFvd2lvMG9NUDBmdE1QQzI3d2NYL2ViMGdZSTdxNmx4bEtUMmZkTGZwQVFNQTQ1NWhJOW5iUWhqaFFQS1Q2SXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDEwNDAxCWZpbGU65rC454uQXzIuMC4yX3g2NC1zZXR1cC5leGUKaHg4N3ZyQlZudUhhWTY4RXBwc0h0d2hZcS9CNHZwaVB4UEhFbXYyYXVpN0FvN0V5Wm9lZTZ1dSs2Rks0MUpwOFpLL2FCZ3lVeSswNHJwM1J5YTRMQ2c9PQo=",
+      "sha256": "3530EDD76E913C29E65C5E4678646DE1F502B1FA741F448405334A1B0A297AB9"
     }
   }
 }
