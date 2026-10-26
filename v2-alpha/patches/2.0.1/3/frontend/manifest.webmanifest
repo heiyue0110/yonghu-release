@@ -1,0 +1,35 @@
+{
+  "name": "永狐 2.0 - EVE Online Companion",
+  "short_name": "永狐",
+  "description": "EVE Online 情报、预警与配装面板。可安装到桌面或手机主屏，断网时仍能打开已缓存的应用外壳。",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "theme_color": "#3aa7ff",
+  "background_color": "#05090d",
+  "categories": ["productivity", "games"],
+  "icons": [
+    {
+      "src": "./icons/everfox-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/everfox-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/everfox-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

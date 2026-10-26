@@ -1,0 +1,8 @@
+[
+  {
+    "from": "起点星系名称",
+    "to": "终点星系名称",
+    "label": "联盟跳桥名称",
+    "bidirectional": true
+  }
+]
