@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Web App Manifest：网页版可安装到桌面 / 手机主屏。桌面端（Tauri）不读这些标签，
+         构建产物与安装包行为不受影响；manifest / 图标都在 public/ 下随构建原样发布。 -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#3aa7ff" />
+    <meta name="application-name" content="永狐" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/everfox-32.png" />
+    <link rel="apple-touch-icon" sizes="256x256" href="./icons/everfox-256.png" />
+    <title>永狐 - EVE Online Companion</title>
+    <script>
+      (() => {
+        const params = new URLSearchParams(location.search);
+        if (params.get('intel-overlay') === '1') {
+          document.documentElement.dataset.shell = 'overlay';
+        } else if (params.get('region-selector') === '1') {
+          document.documentElement.dataset.shell = 'region';
+        } else {
+          document.documentElement.dataset.shell = 'main';
+        }
+
+        if (document.documentElement.dataset.shell !== 'main') return;
+
+        try {
+          document.documentElement.dataset.bootTheme = 'eve-hud';
+          const prefs = JSON.parse(localStorage.getItem('everfox.ui.preferences.v1') || '{}');
+          const preset = String(prefs.theme_preset || '').toLowerCase().trim();
+          const dark = prefs.dark_theme !== false;
+          const knownPresets = new Set([
+            'arknights-terminal',
+            'arknights-terminal-light',
+            'endfield-industries',
+            'endfield-industries-light',
+            'classic-voice',
+            'eve-hud',
+            'concord-control',
+            'liquid-glass',
+            'nailoong-secret',
+            'wormhole-scan',
+            'nebula',
+            'mist-blue',
+            'sand-amber',
+            'sage-green',
+            'ice-cyan',
+            'peach-rose',
+          ]);
+          const darkBootPresets = new Set([
+            'arknights-terminal',
+            'endfield-industries',
+            'eve-hud',
+            'wormhole-scan',
+            'nebula',
+          ]);
+          if (knownPresets.has(preset) && darkBootPresets.has(preset)) {
+            document.documentElement.dataset.bootTheme = preset;
+          } else if (dark) {
+            document.documentElement.dataset.bootTheme = 'dark-amber';
+          }
+          if (prefs.accent_color && /^#[0-9a-f]{6}$/i.test(String(prefs.accent_color))) {
+            document.documentElement.style.setProperty('--boot-accent', prefs.accent_color);
+          }
+        } catch {
+          document.documentElement.dataset.bootTheme = 'dark-amber';
+        }
+      })();
+    </script>
+    <style>
+      :root {
+        --boot-accent: #f59e0b;
+        --boot-text: #dbeafe;
+        --boot-muted: #93a4bd;
+        --boot-card: rgba(15, 23, 42, 0.82);
+        --boot-border: rgba(245, 158, 11, 0.28);
+        --boot-bg:
+          radial-gradient(circle at 50% 40%, rgba(245, 158, 11, 0.18), transparent 34%),
+          linear-gradient(135deg, #080b12 0%, #0d1422 52%, #070a10 100%);
+        --boot-shadow: rgba(0, 0, 0, 0.42);
+        --boot-bar-bg: rgba(148, 163, 184, 0.18);
+        --boot-bar-fill: linear-gradient(90deg, var(--boot-accent), #fbbf24);
+      }
+
+      html[data-boot-theme="nebula"] {
+        --boot-accent: #7c3aed;
+        --boot-bg:
+          radial-gradient(circle at 30% 24%, rgba(124, 58, 237, 0.30), transparent 34%),
+          radial-gradient(circle at 72% 40%, rgba(37, 99, 235, 0.22), transparent 34%),
+          linear-gradient(135deg, #171328 0%, #13244f 56%, #080b18 100%);
+        --boot-border: rgba(124, 58, 237, 0.42);
+        --boot-bar-fill: linear-gradient(90deg, #8b5cf6, #2563eb);
+      }
+
+      html[data-boot-theme="mist-blue"],
+      html[data-boot-theme="concord-control"],
+      html[data-boot-theme="liquid-glass"] {
+        --boot-accent: #0ea5e9;
+        --boot-text: #112b34;
+        --boot-muted: #3e6671;
+        --boot-card: rgba(247, 253, 255, 0.80);
+        --boot-border: rgba(14, 165, 233, 0.30);
+        --boot-bg:
+          radial-gradient(circle at 26% 24%, rgba(255, 255, 255, 0.58), transparent 24%),
+          radial-gradient(circle at 76% 20%, rgba(14, 165, 233, 0.24), transparent 28%),
+          linear-gradient(135deg, #e8f8fb 0%, #d2eef3 52%, #f7fdff 100%);
+        --boot-shadow: rgba(32, 58, 88, 0.16);
+        --boot-bar-bg: rgba(14, 165, 233, 0.16);
+        --boot-bar-fill: linear-gradient(90deg, #0ea5e9, #67e8f9);
+      }
+
+      html[data-boot-theme="sand-amber"] {
+        --boot-accent: #d97706;
+        --boot-text: #30271f;
+        --boot-muted: #6d5b49;
+        --boot-card: rgba(255, 250, 242, 0.82);
+        --boot-border: rgba(217, 119, 6, 0.32);
+        --boot-bg:
+          radial-gradient(circle at 28% 22%, rgba(255, 255, 255, 0.46), transparent 25%),
+          linear-gradient(135deg, #f7f1e7 0%, #eadfce 54%, #fffaf2 100%);
+        --boot-shadow: rgba(93, 64, 28, 0.14);
+        --boot-bar-fill: linear-gradient(90deg, #d97706, #fbbf24);
+      }
+
+      html[data-boot-theme="sage-green"] {
+        --boot-accent: #16a34a;
+        --boot-text: #1d2c22;
+        --boot-muted: #4d6655;
+        --boot-card: rgba(248, 251, 247, 0.82);
+        --boot-border: rgba(22, 163, 74, 0.28);
+        --boot-bg:
+          radial-gradient(circle at 74% 22%, rgba(22, 163, 74, 0.20), transparent 28%),
+          linear-gradient(135deg, #edf3ed 0%, #d9e6dc 54%, #f8fbf7 100%);
+        --boot-shadow: rgba(30, 76, 48, 0.14);
+        --boot-bar-fill: linear-gradient(90deg, #16a34a, #86efac);
+      }
+
+      html[data-boot-theme="peach-rose"] {
+        --boot-accent: #e11d48;
+        --boot-text: #351f1b;
+        --boot-muted: #744f47;
+        --boot-card: rgba(255, 250, 247, 0.82);
+        --boot-border: rgba(225, 29, 72, 0.26);
+        --boot-bg:
+          radial-gradient(circle at 28% 22%, rgba(225, 29, 72, 0.16), transparent 30%),
+          linear-gradient(135deg, #fff1ec 0%, #f7d8ce 56%, #fffaf7 100%);
+        --boot-shadow: rgba(118, 48, 39, 0.14);
+        --boot-bar-fill: linear-gradient(90deg, #e11d48, #fb7185);
+      }
+
+      html[data-boot-theme="arknights-terminal"] {
+        --boot-accent: #00a3ff;
+        --boot-text: #f4f7fb;
+        --boot-muted: #aab5bf;
+        --boot-card: rgba(8, 11, 16, 0.88);
+        --boot-border: rgba(0, 163, 255, 0.36);
+        --boot-bg:
+          linear-gradient(90deg, rgba(244, 247, 251, 0.06) 0 1px, transparent 1px) 0 0 / 34px 34px,
+          linear-gradient(0deg, rgba(244, 247, 251, 0.04) 0 1px, transparent 1px) 0 0 / 34px 34px,
+          linear-gradient(135deg, #05070a 0%, #0b1118 58%, #030609 100%);
+        --boot-bar-fill: linear-gradient(90deg, #00a3ff, #f4f7fb);
+      }
+
+      html[data-boot-theme="arknights-terminal-light"] {
+        --boot-accent: #008fd8;
+        --boot-text: #111820;
+        --boot-muted: #334150;
+        --boot-card: rgba(251, 252, 253, 0.88);
+        --boot-border: rgba(0, 143, 216, 0.32);
+        --boot-bg:
+          linear-gradient(90deg, rgba(17, 24, 32, 0.05) 0 1px, transparent 1px) 0 0 / 34px 34px,
+          linear-gradient(135deg, #f8fafc 0%, #dfe7ee 58%, #eef2f5 100%);
+        --boot-shadow: rgba(47, 58, 68, 0.14);
+        --boot-bar-fill: linear-gradient(90deg, #008fd8, #111820);
+      }
+
+      html[data-boot-theme="endfield-industries"],
+      html[data-boot-theme="endfield-industries-light"] {
+        --boot-accent: #fffa00;
+        --boot-bg:
+          linear-gradient(135deg, transparent 0 40%, rgba(255, 250, 0, 0.14) 40% 46%, transparent 46%),
+          linear-gradient(135deg, #101010 0%, #191919 58%, #060708 100%);
+        --boot-border: rgba(255, 250, 0, 0.42);
+        --boot-bar-fill: linear-gradient(90deg, #fffa00, #f2f2f2);
+      }
+
+      html[data-boot-theme="classic-voice"] {
+        --boot-accent: #2f78b7;
+        --boot-text: #111111;
+        --boot-muted: #526170;
+        --boot-card: rgba(255, 255, 255, 0.86);
+        --boot-border: rgba(47, 120, 183, 0.30);
+        --boot-bg:
+          linear-gradient(135deg, #f4f4f4 0%, #d4e2ef 52%, #ffffff 100%);
+        --boot-shadow: rgba(65, 81, 96, 0.16);
+        --boot-bar-fill: linear-gradient(90deg, #2f78b7, #93c5fd);
+      }
+
+      html[data-boot-theme="eve-hud"] {
+        --boot-accent: #3aa7ff;
+        --boot-bg:
+          radial-gradient(circle at 78% 18%, rgba(58, 167, 255, 0.20), transparent 30%),
+          linear-gradient(135deg, #05090d 0%, #0d151d 56%, #030609 100%);
+        --boot-border: rgba(58, 167, 255, 0.36);
+        --boot-bar-fill: linear-gradient(90deg, #3aa7ff, #b7e4ff);
+      }
+
+      html[data-boot-theme="wormhole-scan"] {
+        --boot-accent: #fcee09;
+        --boot-bg:
+          radial-gradient(circle at 82% 20%, rgba(252, 238, 9, 0.13), transparent 30%),
+          radial-gradient(circle at 10% 82%, rgba(255, 49, 88, 0.10), transparent 28%),
+          linear-gradient(135deg, #050505 0%, #191315 56%, #090808 100%);
+        --boot-border: rgba(252, 238, 9, 0.38);
+        --boot-bar-fill: linear-gradient(90deg, #fcee09, #ff3158);
+      }
+
+      html[data-boot-theme="nailoong-secret"] {
+        --boot-accent: #75c943;
+        --boot-text: #33260a;
+        --boot-muted: #6f551e;
+        --boot-card: rgba(255, 249, 223, 0.84);
+        --boot-border: rgba(117, 201, 67, 0.36);
+        --boot-bg:
+          url("data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20720'%20role='img'%20aria-label='Nailoong%20inspired%20soft%20mascot%20background'%3e%3cdefs%3e%3cradialGradient%20id='body'%20cx='46%25'%20cy='31%25'%20r='68%25'%3e%3cstop%20offset='0'%20stop-color='%23fff08d'/%3e%3cstop%20offset='0.48'%20stop-color='%23ffd84f'/%3e%3cstop%20offset='1'%20stop-color='%23f0ad2f'/%3e%3c/radialGradient%3e%3cradialGradient%20id='belly'%20cx='48%25'%20cy='34%25'%20r='65%25'%3e%3cstop%20offset='0'%20stop-color='%23fffbd5'/%3e%3cstop%20offset='1'%20stop-color='%23ffe98a'/%3e%3c/radialGradient%3e%3cradialGradient%20id='eye'%20cx='42%25'%20cy='35%25'%20r='70%25'%3e%3cstop%20offset='0'%20stop-color='%23d8ff8a'/%3e%3cstop%20offset='0.58'%20stop-color='%2378c63d'/%3e%3cstop%20offset='1'%20stop-color='%231d3512'/%3e%3c/radialGradient%3e%3cfilter%20id='softShadow'%20x='-30%25'%20y='-30%25'%20width='160%25'%20height='160%25'%3e%3cfeDropShadow%20dx='0'%20dy='32'%20stdDeviation='24'%20flood-color='%23a56b15'%20flood-opacity='0.24'/%3e%3c/filter%3e%3c/defs%3e%3crect%20width='960'%20height='720'%20fill='none'/%3e%3cg%20opacity='0.95'%20filter='url(%23softShadow)'%3e%3cellipse%20cx='512'%20cy='444'%20rx='198'%20ry='224'%20fill='url(%23body)'/%3e%3cellipse%20cx='512'%20cy='512'%20rx='118'%20ry='126'%20fill='url(%23belly)'%20opacity='0.78'/%3e%3ccircle%20cx='420'%20cy='292'%20r='116'%20fill='url(%23body)'/%3e%3ccircle%20cx='596'%20cy='292'%20r='116'%20fill='url(%23body)'/%3e%3cellipse%20cx='508'%20cy='336'%20rx='190'%20ry='154'%20fill='url(%23body)'/%3e%3cellipse%20cx='435'%20cy='314'%20rx='45'%20ry='58'%20fill='%23fffdf2'/%3e%3cellipse%20cx='585'%20cy='314'%20rx='45'%20ry='58'%20fill='%23fffdf2'/%3e%3cellipse%20cx='440'%20cy='319'%20rx='31'%20ry='42'%20fill='url(%23eye)'/%3e%3cellipse%20cx='580'%20cy='319'%20rx='31'%20ry='42'%20fill='url(%23eye)'/%3e%3cellipse%20cx='444'%20cy='324'%20rx='15'%20ry='22'%20fill='%2321320e'/%3e%3cellipse%20cx='576'%20cy='324'%20rx='15'%20ry='22'%20fill='%2321320e'/%3e%3ccircle%20cx='430'%20cy='300'%20r='10'%20fill='%23ffffff'%20opacity='0.88'/%3e%3ccircle%20cx='590'%20cy='300'%20r='10'%20fill='%23ffffff'%20opacity='0.88'/%3e%3cpath%20d='M482%20390c18%2013%2043%2013%2061%200'%20fill='none'%20stroke='%237a541b'%20stroke-width='12'%20stroke-linecap='round'%20opacity='0.46'/%3e%3cellipse%20cx='330'%20cy='480'%20rx='42'%20ry='86'%20fill='%23f8bf34'%20transform='rotate(-24%20330%20480)'/%3e%3cellipse%20cx='690'%20cy='480'%20rx='42'%20ry='86'%20fill='%23f8bf34'%20transform='rotate(24%20690%20480)'/%3e%3cellipse%20cx='436'%20cy='640'%20rx='58'%20ry='36'%20fill='%23e9a12c'/%3e%3cellipse%20cx='584'%20cy='640'%20rx='58'%20ry='36'%20fill='%23e9a12c'/%3e%3c/g%3e%3cg%20opacity='0.34'%3e%3ccircle%20cx='176'%20cy='156'%20r='16'%20fill='%23ffffff'/%3e%3ccircle%20cx='236'%20cy='112'%20r='7'%20fill='%23ffffff'/%3e%3ccircle%20cx='784'%20cy='150'%20r='10'%20fill='%23ffffff'/%3e%3ccircle%20cx='804'%20cy='230'%20r='5'%20fill='%23ffffff'/%3e%3cpath%20d='M148%20588c62-54%20128-66%20198-36'%20fill='none'%20stroke='%23fff6bf'%20stroke-width='18'%20stroke-linecap='round'/%3e%3cpath%20d='M720%20594c54-44%20104-48%20154-12'%20fill='none'%20stroke='%23fff6bf'%20stroke-width='14'%20stroke-linecap='round'/%3e%3c/g%3e%3c/svg%3e") right 8vw bottom 6vh / min(62vw, 680px) auto no-repeat,
+          radial-gradient(ellipse at 72% 24%, rgba(117, 201, 67, 0.18), transparent 28%),
+          radial-gradient(ellipse at 24% 78%, rgba(255, 255, 255, 0.42), transparent 26%),
+          linear-gradient(145deg, #fff7c7 0%, #ffe28a 54%, #ffd05a 100%);
+        --boot-shadow: rgba(173, 117, 25, 0.16);
+        --boot-bar-fill: linear-gradient(90deg, #75c943, #ffe16d);
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+        min-height: 100%;
+        overflow: hidden;
+        background-color: #05090d;
+        background: var(--boot-bg);
+      }
+
+      html[data-shell="overlay"] body {
+        background: transparent;
+      }
+
+      #app {
+        min-width: 100vw;
+        min-height: 100vh;
+        background: transparent;
+      }
+
+      .boot-splash {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        color: var(--boot-text);
+        font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+        background: var(--boot-bg);
+      }
+
+      html[data-shell="overlay"] .boot-splash {
+        display: none;
+      }
+
+      .boot-card {
+        min-width: 220px;
+        padding: 18px 20px;
+        border: 1px solid var(--boot-border);
+        border-radius: 18px;
+        background: var(--boot-card);
+        box-shadow: 0 24px 80px var(--boot-shadow);
+      }
+
+      .boot-title {
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+      }
+
+      .boot-subtitle {
+        margin-top: 6px;
+        color: var(--boot-muted);
+        font-size: 12px;
+      }
+
+      .boot-bar {
+        width: 100%;
+        height: 3px;
+        margin-top: 14px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: var(--boot-bar-bg);
+      }
+
+      .boot-bar::before {
+        content: "";
+        display: block;
+        width: 42%;
+        height: 100%;
+        border-radius: inherit;
+        background: var(--boot-bar-fill);
+        animation: boot-slide 1.15s ease-in-out infinite;
+      }
+
+      @keyframes boot-slide {
+        0% { transform: translateX(-110%); }
+        100% { transform: translateX(250%); }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BI0RJ7ED.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vue-vendor-pmx_AwOK.js">
+    <link rel="modulepreload" crossorigin href="./assets/icon-vendor-oDlYfQ0O.js">
+    <link rel="modulepreload" crossorigin href="./assets/fitting-support-BiirYxWJ.js">
+    <link rel="modulepreload" crossorigin href="./assets/tauri-vendor-BGFF5xE0.js">
+    <link rel="modulepreload" crossorigin href="./assets/cloudbase-streams-Ce_DkCVF.js">
+    <link rel="modulepreload" crossorigin href="./assets/cloudbase-adapters-VTAQ96M2.js">
+    <link rel="stylesheet" crossorigin href="./assets/fitting-support-K3KRTMwk.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-B7RT7_WD.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot-splash">
+        <div class="boot-card">
+          <div class="boot-title">永狐</div>
+          <div class="boot-subtitle">正在启动情报与预警面板...</div>
+          <div class="boot-bar"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

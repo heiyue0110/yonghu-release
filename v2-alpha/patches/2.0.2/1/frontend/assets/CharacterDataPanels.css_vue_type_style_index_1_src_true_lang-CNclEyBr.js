@@ -1,0 +1,1 @@
+import{o as s,a as d,w as r}from"./vue-vendor-pmx_AwOK.js";function m(i,n,a,o){let t=!1;const e=()=>{!t&&!document.hidden&&n()&&!a()&&(t=!0,o())};s(()=>{r(i,e,{immediate:!0,flush:"post"}),document.addEventListener("visibilitychange",e)}),d(()=>document.removeEventListener("visibilitychange",e))}export{m as u};
