@@ -5,12 +5,12 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.2.17"
+    "version": "0.2.18"
   },
-  "version": "46ff8a3d7704",
-  "builtAt": "2026-10-30T11:16:25.331Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/v46ff8a3d7704/",
-  "totalBytes": 8523799,
+  "version": "ff9e701e5246",
+  "builtAt": "2026-10-31T10:49:37.644Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/vff9e701e5246/",
+  "totalBytes": 8530319,
   "files": {
     "attributes.json": {
       "bytes": 254999,
@@ -23,9 +23,9 @@
       "entries": 60
     },
     "effects.json": {
-      "bytes": 1604825,
-      "sha256": "9d9e833325bad28bb8b0df432978a7bd4ba9cb3fda3354bfb1e6ce681dfaa311",
-      "entries": 3427
+      "bytes": 1606359,
+      "sha256": "a55b9fc1edd9a0bc4dae1989d12a0273b4854ea2e4ea5a813f48ed5745b6b032",
+      "entries": 3431
     },
     "meta-groups.json": {
       "bytes": 1108,
@@ -63,13 +63,13 @@
       "entries": 441
     },
     "types/ships.json": {
-      "bytes": 924132,
-      "sha256": "eb0ddc8b00184983b82dc94abd60d54f9e902a65c3766fe977329bdb92f562f5",
-      "entries": 424
+      "bytes": 928706,
+      "sha256": "a0be1fe522c56ed148269d3f2dc72998f2566ca4e5a7d5b7b6ebba34521bda42",
+      "entries": 426
     },
     "types/modules.json": {
-      "bytes": 2577668,
-      "sha256": "9644e7e2ecd37449f3ddb7827ff114a805996321ac86300c095705d3db6f4bdc",
+      "bytes": 2578020,
+      "sha256": "31d701a8594876ebcee6f42f923ef948e1c59381f8de80e5e58f36dec9e39023",
       "entries": 4006
     },
     "types/charges.json": {
@@ -98,8 +98,8 @@
       "entries": 48
     },
     "types/skills.json": {
-      "bytes": 203604,
-      "sha256": "6437b5508aaa1f0bce5c2596d42a362c7cc40074cdd4dc0d2c9ac20f388c1f4f",
+      "bytes": 203664,
+      "sha256": "4f31e6e73fece3c29acbbf2f61d0cabdfe2f48b5d7ab9ca0c7baf0004dea20de",
       "entries": 512
     },
     "types/system-effects.json": {
