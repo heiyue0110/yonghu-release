@@ -5,17 +5,17 @@
   "engine": {
     "name": "eve-fit-engine",
     "dataContract": "0.1",
-    "version": "0.2.21"
+    "version": "0.2.22"
   },
-  "version": "010eb7ed1d60",
-  "builtAt": "2026-11-04T12:52:45.164Z",
-  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/v010eb7ed1d60/",
-  "totalBytes": 8530319,
+  "version": "49ff6f43ac5f",
+  "builtAt": "2026-11-12T19:04:16.968Z",
+  "datasetUrl": "https://heiyue0110.github.io/yonghu-release/v2-alpha/fitting-data/datasets/v49ff6f43ac5f/",
+  "totalBytes": 8648493,
   "files": {
     "attributes.json": {
-      "bytes": 254999,
-      "sha256": "45e57f2bd62b8ede37c3786e6a91cf0c5916c2e7ba516a4fcc0e6f83202ebfbc",
-      "entries": 1290
+      "bytes": 264352,
+      "sha256": "36219c7f17d21934619300cce20cce5b359745f2eb3fc3c027f5b139aa627cad",
+      "entries": 1332
     },
     "units.json": {
       "bytes": 3458,
@@ -23,14 +23,14 @@
       "entries": 60
     },
     "effects.json": {
-      "bytes": 1606359,
-      "sha256": "a55b9fc1edd9a0bc4dae1989d12a0273b4854ea2e4ea5a813f48ed5745b6b032",
-      "entries": 3431
+      "bytes": 1641228,
+      "sha256": "fe08b1d939052506377670f6c948d162928a5720445c92c1fd15548104f897dc",
+      "entries": 3499
     },
     "meta-groups.json": {
-      "bytes": 1108,
-      "sha256": "f775b9c94455f637ac784dff41613f167d9277bd32e4090417f7f9041eeaf40c",
-      "entries": 13
+      "bytes": 1301,
+      "sha256": "47af2c060fca125abbd191c4f9ac275aa24a1c5d83d3cba0ffc791aad9c4c5dd",
+      "entries": 15
     },
     "categories.json": {
       "bytes": 1192,
@@ -38,14 +38,14 @@
       "entries": 33
     },
     "groups.json": {
-      "bytes": 64079,
-      "sha256": "17943bbae1fb7f6668965fd6491f4963757be19cfbf164c0ea390ac7685ec76a",
-      "entries": 964
+      "bytes": 65521,
+      "sha256": "7f7e8c9923727cb99b875cde92443b464e6a7ef8c5e2c668d8c4f30bf3cf9813",
+      "entries": 985
     },
     "market-groups.json": {
-      "bytes": 198376,
-      "sha256": "19da257877ce50add1dfd4c9f992b5e28b4bc0e962212bb084d891234acb0577",
-      "entries": 2114
+      "bytes": 199374,
+      "sha256": "3a50893fb06b3430b867a561223c89f5792f6de31916e9b5adece344cf54f2c0",
+      "entries": 2125
     },
     "clone-grades.json": {
       "bytes": 18709,
@@ -53,9 +53,9 @@
       "entries": 4
     },
     "dbuff-collections.json": {
-      "bytes": 87816,
-      "sha256": "1f5d122bdf5aea2773f0b71286a839fbd91e4268abfa78b4c8c59f689d29d3e2",
-      "entries": 277
+      "bytes": 115411,
+      "sha256": "4ea181477a04bc7d753889fe74a27f1e9a86f4d443bb88a9f09ff2900ebfbf24",
+      "entries": 373
     },
     "dynamic-attributes.json": {
       "bytes": 153879,
@@ -63,44 +63,44 @@
       "entries": 441
     },
     "types/ships.json": {
-      "bytes": 928706,
-      "sha256": "a0be1fe522c56ed148269d3f2dc72998f2566ca4e5a7d5b7b6ebba34521bda42",
-      "entries": 426
+      "bytes": 937089,
+      "sha256": "d9806adad75572bfd87cb7610966069cd904216c94b8732dbc72efe9c565afb4",
+      "entries": 430
     },
     "types/modules.json": {
-      "bytes": 2578020,
-      "sha256": "31d701a8594876ebcee6f42f923ef948e1c59381f8de80e5e58f36dec9e39023",
-      "entries": 4006
+      "bytes": 2624853,
+      "sha256": "0d389b8ae74f9f29a9a6903301555f4d1960e81a3b1f9457e30ddfc05ede68a8",
+      "entries": 4042
     },
     "types/charges.json": {
-      "bytes": 599961,
-      "sha256": "be74620079b650da2192e294c502e7e225394878f0ba97a9e0fbb2cd61f9c1c6",
+      "bytes": 599962,
+      "sha256": "fdc722cb9778801ed560b21638fbe85ac8c04557b23d3209a8ddacf15b76b2a9",
       "entries": 1017
     },
     "types/drones.json": {
-      "bytes": 195403,
-      "sha256": "98d4b6e531d51d9d2b84ece3d9d3fa143a8b0beb2f27311e72895d3b07534b5d",
+      "bytes": 195383,
+      "sha256": "849e775483d7289ede0820edffd9826db2f8a284c1b8fc32f125241f396c18ac",
       "entries": 154
     },
     "types/fighters.json": {
-      "bytes": 134873,
-      "sha256": "6551c6954e762b10d85ac13a1152bcc19c598ebdb2b897c502b9f3646ebeacb9",
+      "bytes": 135182,
+      "sha256": "f037461d602404830e041aa5569debde47c0d53bab0f5ae48bec22a37385cf2f",
       "entries": 94
     },
     "types/implants.json": {
-      "bytes": 580255,
-      "sha256": "8b7225c3bf61b61f54767b97bb6a0cdd8c65f17e826e50ac700123280dbb9b77",
-      "entries": 1338
+      "bytes": 567765,
+      "sha256": "74b3d631dc5bf881d30d0da4953c8e6912ec451eefd5b770879694d277d5dfac",
+      "entries": 1308
     },
     "types/subsystems.json": {
-      "bytes": 36255,
-      "sha256": "2021352925d5c269cfeb35c96397f9000e94d2da36f6aa35e2e435793b685a3c",
+      "bytes": 36381,
+      "sha256": "5faee9acb14b2eba50616a5a9728fec35923db4365a37f2390dcc6640e3d2fdb",
       "entries": 48
     },
     "types/skills.json": {
-      "bytes": 203664,
-      "sha256": "4f31e6e73fece3c29acbbf2f61d0cabdfe2f48b5d7ab9ca0c7baf0004dea20de",
-      "entries": 512
+      "bytes": 204066,
+      "sha256": "be3320ef5a76dfca8207e43e5a2874646eb2c7c9c95f800dbb8453d9cc87af69",
+      "entries": 513
     },
     "types/system-effects.json": {
       "bytes": 38068,
@@ -118,9 +118,9 @@
       "entries": 356
     },
     "types/mutaplasmids.json": {
-      "bytes": 566151,
-      "sha256": "dc3d34470df2fb675bd3d405e49a4e5479d155e9e72b06aa96101c39e9eb09df",
-      "entries": 2873
+      "bytes": 566331,
+      "sha256": "46467651b2057f16bb4af99b338ea2bcf9286919dfdd61a5a4c9cf5af23b646c",
+      "entries": 2874
     }
   }
 }
